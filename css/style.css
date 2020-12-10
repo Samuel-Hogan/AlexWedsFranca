@@ -174,9 +174,7 @@ select {
     font-style: italic;
 }
 #btna {
-    
-    /*! position: relative; */
-    /*! left: 25rem; */
+
     width: 31rem;
     height: 115px;
     /*! top: 1rem; */
