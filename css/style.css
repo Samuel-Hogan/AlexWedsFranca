@@ -1,11 +1,10 @@
 #headerImg {
     
     text-align: center;
-    height: 652px;
+    height: 63rem;
 }
 #image {
     max-width: 100%;
-    height: 100vh;
     margin-top: 0;
 }
 body {
@@ -17,6 +16,8 @@ body {
 main {
     max-width: 60em;
     margin: 0 auto;
+    /*! position: relative; */
+    /*! top: 44rem; */
 }
 h1 {
     text-align: center;
@@ -183,9 +184,9 @@ select {
 #gift_head {
        font-size: 1.5rem;
 }
-#wed_pics {
+#words_from_the_groom_and_bride {
+    margin-top: 0;
 }
-
 .imgStory{
     /*! text-align: center; */
 }
@@ -282,5 +283,11 @@ footer{
     #wed_list {
         
     display: inline-block;
+    }
+    #image {
+        height: 50vh;
+    }
+    #words_from_the_groom_and_bride {
+        margin-top: 0; 
     }
 }
