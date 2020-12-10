@@ -12,7 +12,14 @@ body {
 
     background-color: beige;
 }
-    
+ @font-face {
+    font-family: 'Dancing Script', cursive;
+    src: url("");
+ }
+@font-face {
+    font-family: 'Rajdhani', sans-serif;
+    src: url("");
+} 
 main {
     max-width: 60em;
     margin: 0 auto;
@@ -30,8 +37,13 @@ h1 {
     margin-top: 0;
     margin-bottom: 0px;
     position: relative;
-    top: -33rem;
-    color: #e11;
+    top: -28rem;
+    color: red;
+    background-color: #ffffffc4;
+    width: 25%;
+    border-radius: 1rem;
+    left: 24rem;
+    padding: 0.1rem 05rem;
 }
 #wed_list {
     display: flex;
@@ -54,6 +66,8 @@ h1 {
     margin: 0;
     position: relative;
     bottom: 2rem;
+    color: black;
+    font-size: ;
 }
 #yes {
     font-size: xxx-large;
@@ -65,8 +79,9 @@ h1 {
 #word {
     width: 49rem;
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 31px;
     text-align: center;
+    font-family: dancing script;
 }
 #words_from_the_groom {
 
@@ -75,20 +90,24 @@ h1 {
     margin: 0 auto;
 }
 #word1 {
-    
+    font-family: 'Dancing Script', cursive;
     width: 49rem;
     font-size: 30px;
     text-align: center;
     padding-top: 150px;
 }
 #word2 {
-    
+    font-family: 'Dancing Script', cursive;
     width: 49rem;
     font-size: 28px;
     padding-right: 4rem;
     margin-top: 6rem;
     text-align: center;
     padding-top: 110px;
+}
+blockquote {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.1rem;
 }
 #words_from_the_bride {
     
@@ -97,9 +116,9 @@ h1 {
     margin: 0 auto;
 }
 #getting_married {
-    
+    font-family: 'Squada One', cursive;
     font-size: 22px;
-    max-width: 80rem;
+    max-width: 49rem;
     /*! position: relative; */
     /*! left: 10rem; */
     margin: 0 auto;
