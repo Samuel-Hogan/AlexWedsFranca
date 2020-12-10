@@ -53,6 +53,9 @@ h1 {
     width: 85%;
     justify-content: flex-end;
 }
+h2 {
+    font-size: 2rem;
+}
 .HWD {
     padding-left: 4rem;
 }
@@ -108,6 +111,7 @@ h1 {
 blockquote {
     font-family: 'Dancing Script', cursive;
     font-size: 2.1rem;
+    padding: 0 4rem;
 }
 #words_from_the_bride {
     
@@ -136,6 +140,9 @@ blockquote {
 }
 #hashtag {
     text-align: center;
+    background: red;
+    padding-bottom: 0.1rem;
+    padding-top: 1rem;
 }
 #contact {
     text-align: center;
@@ -169,15 +176,17 @@ select {
 #btn {
     
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 2.3rem;
     font-style: italic;
+    font-weight: bold;
 }
 #btna {
 
     width: 31rem;
     height: 115px;
-    /*! top: 1rem; */
+    background: red;
+    border-color: red;
 }
 #inp {
     
@@ -212,7 +221,7 @@ select {
     margin: 40px;
 }
 footer{
-    background: #9090d2;
+    background: #eadddd;
     padding: 5px 5px 5px 15px;
     margin-top: 30px;
     text-align: center;
@@ -220,6 +229,7 @@ footer{
 #invite {
     
     border: 15px solid red;
+    margin: 5rem;
 }
 @media (max-width:360px) {
     .HWD2 {
