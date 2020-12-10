@@ -188,7 +188,7 @@ select {
     margin-top: 0;
 }
 .imgStory{
-    /*! text-align: center; */
+    text-align: center;
 }
 #button{
     text-align: center;
