@@ -40,12 +40,12 @@ h1 {
     text-align: center;
     margin-top: 0;
     margin-bottom: 0px;
-    position: relative;
-    top: -28rem;
+    position: absolute;
+    top: 21rem;
     color: red;
     background-color: #ffffffc4;
     border-radius: 1rem;
-    left: 33rem;
+    left: 30rem;
     padding: 0.1rem 05rem;
     width: 15rem;
 }
@@ -245,7 +245,13 @@ footer{
     border: 15px solid red;
     margin: 5rem;
 }
-
+#groom{
+    
+    margin-top: 3rem;
+}
+#heart {
+    max-width: 100%;
+}
 #gift{
     
     text-align: center;
