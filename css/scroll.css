@@ -5,7 +5,7 @@
   border-radius: .25em;
   box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
   margin: 2em auto;
-  max-width: 400px;
+  max-width: 700px;
   opacity: 0;
   -webkit-transform: translateY(4em) rotateZ(-5deg);
           transform: translateY(4em) rotateZ(-5deg);
@@ -26,7 +26,7 @@
 .inline-photo.is-visible {
   opacity: 1;
   -webkit-transform: rotateZ(-2deg);
-          transform: rotateZ(-2deg);
+          transform: rotatex(-2deg);
 }
 
 header {
@@ -67,4 +67,11 @@ header.is-visible {
 
   will-change: transform;
 }
-
+.scroll_width {
+  width: 17rem;
+}
+@media (max-width:370px) {
+   .scroll_width {
+     width: 2rem;
+   }
+}

@@ -2,11 +2,11 @@
     
     text-align: center;
     height: 652px;
-    margin-top: 66px;
 }
 #image {
     max-width: 100%;
     height: 100vh;
+    margin-top: 0;
 }
 body {
     margin: 0 auto;
@@ -21,6 +21,7 @@ main {
 h1 {
     text-align: center;
     font-size: 4rem;
+    color: #ff0000d1;
 }
 #couplesName {
     font-size: 50px;
@@ -35,12 +36,12 @@ h1 {
     display: flex;
     list-style-type: none;
     padding: 0;
-    position: absolute;
-    left: 46rem;
-    bottom: 40rem;
+    position: relative;
+    width: 85%;
+    justify-content: flex-end;
 }
 .HWD {
-    padding-left: 93px;
+    padding-left: 4rem;
 }
 .HWD2 {
      text-decoration-style: -moz-none;
@@ -49,12 +50,16 @@ h1 {
 #cName {
     font-size: large;
     color: white;
+    margin: 0;
+    position: relative;
+    bottom: 2rem;
 }
 #yes {
     font-size: xxx-large;
     text-align: center;
     width: 50rem;
     margin: 0 auto;
+    margin-top: 5rem;
 }
 #word {
     width: 49rem;
@@ -73,6 +78,7 @@ h1 {
     width: 49rem;
     font-size: 30px;
     text-align: center;
+    padding-top: 150px;
 }
 #word2 {
     
@@ -81,6 +87,7 @@ h1 {
     padding-right: 4rem;
     margin-top: 6rem;
     text-align: center;
+    padding-top: 110px;
 }
 #words_from_the_bride {
     
@@ -113,6 +120,7 @@ h1 {
 #contact {
     text-align: center;
     width: 54rem;
+    margin: 0 auto;
 }
 h3 {
     font-size: 68px;
@@ -134,7 +142,145 @@ select {
 }
 .form_width {
     
-    width: 48rem;
+    width: 79%;
     margin: 1rem;
     height: 2rem;
+}
+#btn {
+    
+    text-decoration: none;
+    color: black;
+    font-size: 2.3rem;
+    font-style: italic;
+}
+#btna {
+    
+    /*! position: relative; */
+    /*! left: 25rem; */
+    width: 31rem;
+    height: 115px;
+    /*! top: 1rem; */
+}
+#inp {
+    
+    color: black;
+}
+#gives {
+    
+    border: 5px solid #a63737;
+    text-align: center;
+    width: 30%;
+    height: 23rem;
+    border-radius: 52px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    display: none;
+}
+.gifts {
+    height: 16vh;
+    margin: 14%;
+}
+#gift_head {
+       font-size: 1.5rem;
+}
+#wed_pics {
+}
+
+.imgStory{
+    /*! text-align: center; */
+}
+#button{
+    text-align: center;
+    margin: 40px;
+}
+footer{
+    background: #9090d2;
+    padding: 5px 5px 5px 15px;
+    margin-top: 30px;
+    text-align: center;
+}
+@media (max-width:370px) {
+    .HWD2 {
+        font-size: 11px;
+    }
+    .HWD {
+        padding-left: 10px; 
+    }
+    #image { 
+    margin-top: 0;
+    height: 50vh;
+    }
+    #couplesName {
+        
+    font-size: 2rem;
+    top: -30rem;
+    }
+    #cName {
+        
+    top: 14rem;
+    color: black;
+    }
+    #headerImg {
+        
+    height: 30rem;
+    }
+    h1 {
+        
+    font-size: 2rem;
+    }
+    #word {
+        
+    width: 18rem;
+    }
+    #words_from_the_groom {
+        
+    flex-direction: column;
+    }
+    #word1 {
+        
+    width: 23rem;
+    padding-top: 0;
+    }
+    #words_from_the_bride {
+        
+    flex-direction: column-reverse;
+    }
+    #word2 {
+        
+    margin-top: 0;
+    padding: 0;
+    width: 20rem;
+    margin-left: 1.5rem;
+    }
+    #yes {
+        font-size: 1.5rem;
+        width: 84%;
+        display: block;
+    }
+    h3 {
+        
+    font-size: 2rem;
+    }
+    #thanks {
+        font-size: 1rem
+    }
+    #contact {
+        width: 90%;
+    }
+    #contact_list {
+        
+    border-radius: 2rem;
+    }
+    #gives {
+        
+    width: 87%;
+    height: 23rem;
+    }
+    #btna{
+        width: 18rem;
+    }
+    #wed_list {
+        
+    display: inline-block;
+    }
 }
