@@ -1,7 +1,6 @@
 #headerImg {
     
     text-align: center;
-    height: 63rem;
 }
 #image {
     max-width: 100%;
@@ -30,6 +29,7 @@ h1 {
     text-align: center;
     font-size: 4rem;
     color: #ff0000d1;
+    margin-top: 10rem;
 }
 #couplesName {
     font-size: 50px;
@@ -40,10 +40,10 @@ h1 {
     top: -28rem;
     color: red;
     background-color: #ffffffc4;
-    width: 25%;
     border-radius: 1rem;
-    left: 24rem;
+    left: 33rem;
     padding: 0.1rem 05rem;
+    width: 15rem;
 }
 #wed_list {
     display: flex;
@@ -116,7 +116,7 @@ blockquote {
     margin: 0 auto;
 }
 #getting_married {
-    font-family: 'Squada One', cursive;
+    font-family: 'Squada One', sans-serif;
     font-size: 22px;
     max-width: 49rem;
     /*! position: relative; */
@@ -216,6 +216,10 @@ footer{
     padding: 5px 5px 5px 15px;
     margin-top: 30px;
     text-align: center;
+}
+#invite {
+    
+    border: 15px solid red;
 }
 @media (max-width:360px) {
     .HWD2 {
