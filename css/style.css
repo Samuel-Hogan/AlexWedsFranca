@@ -200,7 +200,7 @@ footer{
     margin-top: 30px;
     text-align: center;
 }
-@media (max-width:370px) {
+@media (max-width:360px) {
     .HWD2 {
         font-size: 11px;
     }
